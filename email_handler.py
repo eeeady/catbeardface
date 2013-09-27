@@ -47,7 +47,7 @@ def send_daily_list(u_id):
 def get_email():
     pop_conn = poplib.POP3_SSL('pop.gmail.com')
     pop_conn.user('catbeardface@gmail.com')
-    pop_conn.pass_('WMHso6V2u4HG')
+    pop_conn.pass_('REDACTED')
 
     print pop_conn.list()
 
